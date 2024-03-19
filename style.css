@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust height as needed */
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu .buy-now-btn {
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+  .content {
+    margin-top: 60px; /* Adjust margin to prevent content from being hidden under the navbar */
+    padding: 20px;
+  }
+  .custom-btn {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.custom-btn-outline {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.custom-btn-outline:hover {
+    color: black;
+    background-color: transparent;
+    border-color: white;
+}
+
+.custom-btn-outline1 {
+    color:rgb(22, 246, 216);
+    border: 1px solid rgb(22, 246, 216);
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.custom-btn-outline1:hover {
+    color: black;
+    background-color: transparent;
+    border-color: white;
+}
+.flip-horizontal {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flip-horizontal-image {
+    transform: scaleX(-1);
+}
+.testimonial {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial-text {
+    flex: 1;
+}
+
+.testimonial-text p {
+    margin-bottom: 10px;
+}
+.testimonial-section {
+    max-width: 1200px; /* Set the maximum width of the testimonial section */
+    margin: 0 auto; /* Center the testimonial section horizontally */
+}
+.small-image {
+    max-width: 200px; /* Adjust the maximum width as needed */
+    height: auto;
+}
+.products{
+    max-width: 1200px; /* Set the maximum width of the testimonial section */
+    margin: 0 auto; /* Center the testimonial section horizontally */
+}
+footer a {
+    text-decoration: none;
+    color: grey;
+}
+.envelope-icon {
+    max-height: 38px;
+    margin-left: -38px;
+    margin-right: 5px;
+    background-color: white;
+}
+.vibrant{
+    max-width: 1200px; /* Set the maximum width of the testimonial section */
+}
